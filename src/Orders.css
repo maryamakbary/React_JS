@@ -1,0 +1,140 @@
+.table-wrapper {
+    font-family: "Theinhardt", sans-serif;
+    font-size: 0.875rem;
+    line-height: 1.4;
+    max-width: 50%;
+    margin: 5rem auto;
+  }
+  
+  .table-row {
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 100%;
+    padding: 1rem;
+  }
+  
+  .table-row:nth-of-type(2n+1) {
+    background: #f1edf0;
+  }
+  
+  .table-header {
+    background-color: #1c0119 !important;
+    color: white;
+  }
+  
+  .col-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+ 
+  }
+  
+  .table-col {
+    flex: 0 0;
+    vertical-align: top;
+  }
+  
+  .order-date-number-po {
+    flex: 0.5 0;
+    width: 850px;
+  }
+  @media screen and (max-width: 1000px) {
+    .order-date-number-po {
+      flex-direction: column;
+    }
+  }
+
+  .order{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+  }
+  
+  .order-date {
+    width: 100px;
+    flex: 0.5 1;
+    /* margin-top: 1.5rem; */
+
+  }
+  
+  .order-number {
+    width: 150px;
+    flex: 0.5 1;
+    font-weight: 500;
+  }
+  
+  .order-po {
+    width: 100px;
+    flex: 0.5 1;
+  }
+  
+  .order-year-model-customer {
+    flex: 1 0;
+    width: 600px;
+  }
+  @media screen and (max-width: 1200px) {
+    .order-year-model-customer {
+      flex-direction: column;
+      width: 200px;
+    }
+    .order-year-model-customer div {
+      flex-grow: 0;
+    }
+  }
+  
+  .order-year {
+    width: 100px;
+    flex: 0.5 1;
+    padding-right: 0.5rem;
+  }
+  
+  .order-model {
+    width: 100px;
+    flex: 0.5 1;
+  }
+  
+  .order-customer {
+    width: 200px;
+    flex: 2 0;
+  }
+  
+  .order-status-signed {
+    flex: 0 1;
+    width: 200px;
+  }
+  @media screen and (max-width: 1200px) {
+    .order-status-signed {
+      flex-direction: column;
+      width: 100px;
+    }
+    .order-status-signed div {
+      flex-grow: 0;
+    }
+  }
+  
+  .order-status {
+    width: 100px;
+    flex: 1 0;
+  }
+  
+  .order-signed {
+    width: 100px;
+    flex: 1 0;
+  }
+  
+  .order-actions {
+    flex: 0 1;
+    width: 200px;
+  }
+  
+  .order-sign {
+    width: 100px;
+    flex: 1 0;
+  }
+  
+  .order-view {
+    width: 100px;
+    flex: 1 0;
+  }
